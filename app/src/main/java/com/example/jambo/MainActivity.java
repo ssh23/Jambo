@@ -9,6 +9,7 @@ import android.os.Handler;
 public class MainActivity extends AppCompatActivity {
 
     private static int splash_time=4000;
+    String Suresh;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
