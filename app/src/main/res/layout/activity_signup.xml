@@ -92,6 +92,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:text="SIGN UP"
+        android:onClick="signup"
         android:textSize="20sp" />
 
     <TextView
@@ -101,6 +102,7 @@
         android:layout_below="@+id/signup"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="12dp"
+        android:onClick="gotoLogin"
         android:text="Already Have Account?"
         android:textSize="16sp"
         android:textStyle="italic" />
